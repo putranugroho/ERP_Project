@@ -34,25 +34,25 @@
         </div>
         <!-- /.box-header -->
         <div class="box-body">
-            <?php foreach ($payload as $load) : ?>
-                <table id="Table<?php echo $no++ ?>" class="table table-bordered table-hover dataTable" style="border-color: #000000;">
-                    <thead>
-                        <tr>
-                            <th>Kode Barang</th>
-                            <th>Urut</th>
-                            <th>Nama Barang</th>
-                            <th>Supplier</th>
-                            <th>Nama Supplier</th>
-                            <th>Harga Sewa</th>
-                            <th>Min Sewa</th>
-                            <th>Satuan Sewa</th>
-                            <th>Lama Pakai</th>
-                            <th>Biaya Sewa</th>
-                            <th>BBM</th>
-                            <th>Tanggal Mulai</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+            <table class="table table-bordered table-hover dataTable" style="border-color: #000000;">
+                <thead>
+                    <tr>
+                        <th>Kode Barang</th>
+                        <th>Urut</th>
+                        <th>Nama Barang</th>
+                        <th>Supplier</th>
+                        <th>Nama Supplier</th>
+                        <th>Harga Sewa</th>
+                        <th>Min Sewa</th>
+                        <th>Satuan Sewa</th>
+                        <th>Lama Pakai</th>
+                        <th>Biaya Sewa</th>
+                        <th>BBM</th>
+                        <th>Tanggal Mulai</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($payload as $load) : ?>
                         <tr>
                             <td style="border-top: 1px solid #000000;"><?php echo $load->kd_brg ?></td>
                             <td style="border-top: 1px solid #000000;"><?php echo $load->urut ?></td>
@@ -67,9 +67,9 @@
                             <td style="border-top: 1px solid #000000;"><?php echo $load->b_bakar ?></td>
                             <td style="border-top: 1px solid #000000;"><?php echo $load->tgl_mulai ?></td>
                         </tr>
-                    </tbody>
-                </table>
-            <?php endforeach; ?>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
         </div>
     </div>
     <!-- /.box-body -->

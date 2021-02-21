@@ -17,7 +17,7 @@
 <section class="content">
     <div class="box">
         <div class="box-header">
-            <form action="<?php echo base_url() . 'produksi/get_rekap_penjualan'; ?>" method="post">
+            <form action="<?php echo base_url() . 'produksi_non_proses/rekap_peralatan'; ?>" method="post">
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2">Tanggal Proses</label>
 

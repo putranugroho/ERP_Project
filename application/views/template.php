@@ -250,7 +250,7 @@
                                 <ul class="treeview-menu">
                                     <li><a href=""><i class="fa fa-circle-o"></i> Peralatan</a></li>
                                     <li><a href=""><i class="fa fa-circle-o"></i> Kegiatan Peralatan</a></li>
-                                    <li><a href=""><i class="fa fa-circle-o"></i> Rekap Peralatan</a></li>
+                                    <li><a href="<?= site_url('produksi_non_proses/rekap_penjualan') ?>"><i class="fa fa-circle-o"></i> Rekap Peralatan</a></li>
                                 </ul>
                             </li>
                         </ul>
