@@ -33,7 +33,7 @@
             </form>
         </div>
         <!-- /.box-header -->
-        <div class="box-body">
+        <div class="box-body table-responsive">
             <table class="table table-bordered table-hover dataTable" style="border-color: #000000;">
                 <thead>
                     <tr>
@@ -56,9 +56,9 @@
                         <tr>
                             <td style="border-top: 1px solid #000000;"><?php echo $load->kd_brg ?></td>
                             <td style="border-top: 1px solid #000000;"><?php echo $load->urut ?></td>
-                            <td style="border-top: 1px solid #000000;"></td>
+                            <td style="border-top: 1px solid #000000;"><?php echo $load->ket_brg ?></td>
                             <td style="border-top: 1px solid #000000;"><?php echo $load->pemilik ?></td>
-                            <td style="border-top: 1px solid #000000;"></td>
+                            <td style="border-top: 1px solid #000000;"><?php echo $load->nm_cust ?></td>
                             <td style="border-top: 1px solid #000000;"><?php echo $load->ha_sewa ?></td>
                             <td style="border-top: 1px solid #000000;"><?php echo $load->min_sewa ?></td>
                             <td style="border-top: 1px solid #000000;"><?php echo $load->kd_satuan ?></td>
