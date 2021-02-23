@@ -25,7 +25,7 @@
                         <div class="input-group">
                             <input type="date" class="form-control" id="kodeperusahaan">
                             <div class="input-group-btn">
-                                <button type="submit" class="btn btn-primary">Action</button>
+                                <button type="submit" class="btn btn-primary">Proses</button>
                             </div>
                         </div>
                     </div>

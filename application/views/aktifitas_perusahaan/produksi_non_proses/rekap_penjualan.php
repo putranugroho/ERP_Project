@@ -25,7 +25,7 @@
                         <div class="input-group">
                             <input type="date" name="date" class="form-control">
                             <div class="input-group-btn">
-                                <button type="submit" class="btn btn-primary">Action</button>
+                                <button type="submit" class="btn btn-primary">Proses</button>
                             </div>
                         </div>
                     </div>
